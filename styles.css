@@ -57,3 +57,31 @@ height: 500px;
 ul li{
 list-style-type: georgian;
 }
+
+
+
+form {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #D7BDE2 ;
+}
+
+input {
+    width: 70%;
+    height: 100vh   ;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 15px;    
+    background: aquamarine;
+}
+
+.boton:hover{
+    background: rgb(123, 123, 246);
+    color: aquamarine;
+}
